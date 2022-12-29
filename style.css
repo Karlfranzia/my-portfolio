@@ -45,8 +45,9 @@ header{
 
 a:link{
   color: #A599B5;
-  font-size: 1.3em;
+  font-size: 100%;
   font-family: inherit;
+  text-decoration: none;
 }
 
 .banner{
@@ -80,6 +81,14 @@ section{
     width: 70%;
 }
 
+#landing-page{
+    background-image: url(./assets/landing-page.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+
 .p2, #landing-page{
     display: flex;
     margin: 1em;
@@ -98,6 +107,7 @@ section{
     padding: .5em;
 }
 
+
 .contacts{
     display: flex;
     flex-flow: column;
@@ -107,6 +117,10 @@ section{
 .contacts a:link{
     margin: 5px;
     color: #2E2F2F;
+}
+
+.p2:hover, #landing-page:hover{
+border-style: dashed;
 }
 
 @media screen and (min-width: 768px){
@@ -171,6 +185,8 @@ section{
     #landing-page{   
        width: 100%;        
     }
+
+    
 
     .contacts{
         width: 70%;
