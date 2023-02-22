@@ -81,6 +81,13 @@ section{
     width: 70%;
 }
 
+#playlist-maker{
+    background-image: url(./assets/screencapture-whitneywishart-github-io-project-one-lyrics-legend-2023-02-21-18_24_46.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 #landing-page{
     background-image: url(./assets/landing-page.png);
     background-size:     cover;
