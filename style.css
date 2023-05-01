@@ -88,6 +88,13 @@ section{
     background-position: center center;
 }
 
+#group-calendar{
+    background-image: url(./assets/group-calendar.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 #landing-page{
     background-image: url(./assets/landing-page.png);
     background-size:     cover;
